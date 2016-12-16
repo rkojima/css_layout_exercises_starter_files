@@ -1,0 +1,46 @@
+main {
+    font-size: 0;
+}
+
+.parent-box {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+}
+
+.parent-box div {
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.half {
+  width: 50%;
+  height: 200px;
+}
+
+.third {
+  width: 33.33%;
+  height: 300px;
+}
+
+.top-left {
+    background-color: green;
+}
+
+.top-right {
+    background-color: blue;
+}
+
+.bottom-left {
+    background-color: gray;
+}
+
+.bottom-middle {
+    background-color: black;
+}
+
+.bottom-right {
+    background-color: orange;
+}
